@@ -1,0 +1,53 @@
+P(A 1 ∪ A 2 ) = P(A 1 ) + P(A 2 ), If A1 and A2 are disjoint
+Property A P(A c ) = 1 − P(A)
+P(∅) = 0
+If A ⊂ B, then P(A) ≤ P(B). This property states that if B occurs
+whenever A occurs, then P(A) ≤ P(B).
+Addition Law: Addition Law P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
+Permutation:
+A permutation is an ordered arrangement of objects. Suppose that from the set
+C = {c 1 , c 2 , . . . , c n } we choose r elements and list them in order.
+With replacement:
+The first ball can be chosen in any of n ways, the second in any
+of n ways, etc., so that there are n × n × · · · × n = n power r samples
+
+For a set of size n and a sample of size r , there are n r different ordered 
+samples with replacement and n(n − 1)(n − 2) · · · (n − r + 1) different orderedsamples without replacement.
+
+The number of orderings of n elements is n(n − 1)(n − 2) · · · 1 = n!
+Grouping classes:
+(n          )
+n1n2n3...nr
+
+Combinations:
+The number of unordered
+samples of r objects selected from n objects without
+replacement is 
+(n)
+ r .
+ 
+ Conditional Probability:
+ 
+ P(A | B) =P(A ∩ B)/P(B)
+ 
+ P(A) =sigma 1 to n P(A | B i )P(B i )
+ A and B are said to be independent events if P(A ∩ B) = P(A)P(B).
+ 
+ Random Variables:
+ 
+A random variable is essentially a random number. As motivation for a definition, let
+us consider an example. A coin is thrown three times, and the sequence of heads and
+tails is observed; thus,
+OMEGA= {hhh, hht, htt, hth, ttt, tth, thh, tht}
+Examples of random variables defined on OMEGA are (1) the total number of heads, (2) the
+total number of tails, and (3) the number of heads minus the number of tails. Each of
+these is a real-valued function defined on omega
+
+Bernoulli Random Variables:
+A Bernoulli random variable takes on only two values: 0 and 1, with probabilities
+1 − p and p, respectively. Its frequency function is thus
+p(1) = p
+p(0) = 1 − p
+p(x) = 0,if x =0 and x =1
+
+ 
